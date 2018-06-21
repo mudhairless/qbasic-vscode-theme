@@ -1,0 +1,22 @@
+{
+    "name": "qbasic",
+    "displayName": "qbasic",
+    "description": "Old School QBasic IDE coloring",
+    "version": "0.0.1",
+    "publisher": "mudhairless",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "QBasic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/QBasic-color-theme.json"
+            }
+        ]
+    }
+}
