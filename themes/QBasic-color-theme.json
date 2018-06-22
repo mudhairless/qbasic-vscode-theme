@@ -46,11 +46,6 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#aaaaaa",
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -192,7 +187,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "",
 				"foreground": "#ffff55"
 			}
 		},
@@ -500,15 +495,7 @@
 				"foreground": "#65737E"
 			}
 		},
-		{
-			"name": "Markdown - Line Break",
-			"scope": [
-				"text.html.markdown meta.dummy.line-break"
-			],
-			"settings": {
-				"foreground": ""
-			}
-		},
+		
 		{
 			"name": "Markdown - Heading",
 			"scope": [
@@ -567,33 +554,12 @@
 			}
 		},
 		{
-			"name": "Markup - Strike",
-			"scope": [
-				"markup.strike"
-			],
-			"settings": {
-				"fontStyle": "strike",
-				"foreground": ""
-			}
-		},
-		{
 			"name": "Markdown - Blockquote",
 			"scope": [
 				"markup.quote punctuation.definition.blockquote.markdown"
 			],
 			"settings": {
-				"background": "#65737E",
 				"foreground": "#65737E"
-			}
-		},
-		{
-			"name": "Markup - Quote",
-			"scope": [
-				"markup.quote"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": ""
 			}
 		},
 		{
@@ -677,7 +643,6 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"background": "#00000050",
 				"foreground": "#65737E"
 			}
 		},
