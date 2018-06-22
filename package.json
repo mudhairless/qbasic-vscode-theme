@@ -3,7 +3,7 @@
     "displayName": "qbasic",
     "description": "Old School QBasic IDE coloring",
     "version": "1.0.0",
-    "publisher": "mudhairless",
+    "publisher": "EbbenFeagan",
     "engines": {
         "vscode": "^1.24.0"
     },
